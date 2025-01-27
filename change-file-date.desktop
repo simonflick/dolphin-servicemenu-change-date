@@ -8,9 +8,11 @@ X-KDE-Priority=TopLevel
 Version=0.1
 
 [Desktop Action changeFileDate]
-Exec=~/.local/share/kservices5/ServiceMenus/change-file-date.sh %f
+Exec=/usr/share/kio/servicemenus/change-file-date.sh %f
 Icon=utilities-terminal
 
-Name=Change Create-Date of a File
+Name=Edit creation date
+Name[DE]=Erstelldatum bearbeiten
 Comment=Change the creation Date of a File to the choosen one.
 Comment[DE]=Ändert das Erstellungsdatum einer Datei.
+Icon=knotes_date
