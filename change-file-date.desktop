@@ -9,7 +9,6 @@ Version=0.1
 
 [Desktop Action changeFileDate]
 Exec=/usr/share/kio/servicemenus/change-file-date.sh %f
-Icon=utilities-terminal
 
 Name=Edit creation date
 Name[DE]=Erstelldatum bearbeiten
