@@ -1,18 +1,18 @@
 # Installation
 
-## Plasma 5 (KDE)
+## KDE Plasma 6
 
-Copy the .sh file, and the .desktop file to your User-Based KDE-ServiceMenu Path:
+1. Copy the .sh file, and the .desktop file to:
 
-`~/.local/share/kservices5/ServiceMenus/`
+    `/usr/share/kio/servicemenus/`
 
-Then run `kbuildsycoca5` on CLI, or restart your Plasma session.
+2. Make the script executable:
+
+    `sudo chmod +x /usr/share/kio/servicemenus/change-file-date.sh`
+
+3. Run `kbuildsycoca6` on CLI, or restart your Plasma session.
 
 
 # How to use
+
 ![Demo](change-file-date-demo.gif)
-
-# Rate it
-If you like this little piece of Code, please rate it on [www.opendesktop.org](https://www.opendesktop.org/p/1222164/)
-
-Thank you!
